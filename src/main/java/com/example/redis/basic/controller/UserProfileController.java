@@ -1,7 +1,7 @@
-package com.example.redis.controller;
+package com.example.redis.basic.controller;
 
-import com.example.redis.dto.UserProfile;
-import com.example.redis.service.UserService;
+import com.example.redis.basic.dto.UserProfile;
+import com.example.redis.basic.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-public class ApiController {
+public class UserProfileController {
 
     private final UserService userService;
 

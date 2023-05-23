@@ -1,4 +1,4 @@
-package com.example.redis.dto;
+package com.example.redis.basic.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

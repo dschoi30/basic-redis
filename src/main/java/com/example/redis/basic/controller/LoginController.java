@@ -1,4 +1,4 @@
-package com.example.redis.controller;
+package com.example.redis.basic.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
