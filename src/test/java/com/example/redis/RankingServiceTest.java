@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 
 @SpringBootTest
-public class SimpleTest {
+public class RankingServiceTest {
 
     @Autowired RankingService rankingService;
 
